@@ -22,9 +22,9 @@ const Reviews = () => {
     ];
   
   return (
-    <section className="py-20">
+    <section id="reviews" className="py-20">
         <div className="container mx-auto px-6 text-center">
-            <h2 className="text-3xl font-bold">What our customers say</h2>
+            <h2 className="text-3xl font-bold">Reviews</h2>
             <p className="text-gray-600 mt-4">See what our customers are saying about Konectar</p>
 
             <div className="grid grid-cols-1 gap-6 mt-10 md:grid-cols-3">
