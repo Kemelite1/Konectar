@@ -3,7 +3,9 @@ const Navbar = () => {
   return (
     <nav className="w-full bg-white shadow-lg fixed top-0">
       <div className="container mx-auto px-6 py-3 flex justify-between items-center">
-        <div className="flex items-center">
+        
+        {/* Logo */}
+        <div className="flex">
           <img src={Logo} alt="Konectar Logo" className="w-20 h-20" />
         </div>
         {/* <div className="text-2xl text-gray-500 font-bold">Konectar</div> */}
