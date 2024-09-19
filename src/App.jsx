@@ -1,9 +1,11 @@
-//display hello word
+import Navbar from "./components/Navbar";
+
+
 function App() {
   return (
-    <div>
-      <h1 className="bg-green-400">Hello World</h1>
-    </div>
+    <>
+      <Navbar />
+    </>
   );
 }
 
